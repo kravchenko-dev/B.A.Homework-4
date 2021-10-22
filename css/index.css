@@ -3,17 +3,11 @@
   padding: 0;
 }
 
-html {
-}
-
-body {
-  width: 1580px;
-  background-color: rgb(11, 0, 2);
-  margin: auto;
-}
-
 main {
-  background-color: rgba(32, 32, 32, 0.871);
+  width: 1920px;
+  height: 420px;
+  background-color: rgb(18, 17, 22);
+  margin: auto;
 }
 
 .columns {
@@ -23,54 +17,90 @@ main {
 
 .column {
   margin: 0 15px 0 15px;
-  height: 457px;
-  width: 68px;
-  background-color: rgb(52, 25, 25);
+  height: 420px;
+  width: 70px;
+  background-color: rgb(42, 37, 43);
   display: inline-block;
   text-align: center;
 }
 
-.group-3cards {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  top: -349px;
-  margin: auto;
-  width: 1140px;
-  color: rgb(255, 255, 255);
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+.logo {
+  position: absolute;
+  left: 902px;
+  top: 120px;
 }
 
-.image {
-  width: 80px;
-  height: 80px;
-  background-color: rgb(255, 174, 0);
-  justify-content: center;
-  border-radius: 15px 0 15px 0;
-  margin: auto;
-}
-
-img {
-  width: 35px;
-  height: 35px;
-  padding-top: 22px;
-  margin: auto;
-}
-
-.card {
+.social {
   text-align: center;
-  width: 360px;
 }
 
-h3 {
-  padding-top: 41px;
-  font-size: 24px;
-  line-height: 24px;
+h4 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 889px;
+  top: 202px;
+  z-index: 13;
 }
 
-p {
-  padding-top: 38px;
-  font-size: 14px;
-  line-height: 24px;
+hr {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 845px;
+  top: 242px;
+  width: 230px;
+  height: 1px;
+  z-index: 12;
+}
+
+.facebook {
+  position: absolute;
+  left: 886px;
+  top: 263px;
+  width: 7px;
+  height: 15px;
+  z-index: 11;
+}
+
+.tweter {
+  position: absolute;
+  left: 927px;
+  top: 265px;
+  width: 15px;
+  height: 12px;
+  z-index: 10;
+}
+
+.google {
+  position: absolute;
+  left: 977px;
+  top: 265px;
+  width: 16px;
+  height: 15px;
+  z-index: 9;
+}
+
+.dribble {
+  position: absolute;
+  left: 1017px;
+  top: 264px;
+  width: 15px;
+  height: 15px;
+  z-index: 8;
+}
+
+footer {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  position: absolute;
+  left: 837px;
+  top: 363px;
+  z-index: 7;
+}
+
+span {
+  color: rgb(25, 200, 250);
 }
